@@ -1,8 +1,8 @@
 ﻿//Экзаменационное задание: Задание 2: Реализовать полнофункциональную систему тестирования.
-
 #pragma once
 #include <iostream>
 #include <string>
+#include <vector>
 using namespace std;
 
 class Database
@@ -31,7 +31,8 @@ class Database
 		string user, password;
 		class Admin;
 		void auth();
-		void cypher(); //шифрование методом Цезаря
+		void cypher(); //шифрование методом Цезаря 
+		//https://ru.stackoverflow.com/questions/737102/%D0%A8%D0%B8%D1%84%D1%80-%D0%A6%D0%B5%D0%B7%D0%B0%D1%80%D1%8F-c
 	};
 
 	class Tree //дерево для хранения данных
@@ -63,7 +64,11 @@ public:
 };
 
 
-int main()
-{
-    std::cout << "Hello World!\n";
+int main() {
+	vector <double> v; 
+	int read_double(v)
+	{
+		int i = 0;
+		while (i<size() && cin >> v[i]); i++; return i;);
+	};
 }
